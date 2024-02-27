@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/crabsrave/Mathautogenerator.git
 
-WORKDIR/Mathautogenerator
+WORKDIR /Mathautogenerator
 
 RUN npm install
 
